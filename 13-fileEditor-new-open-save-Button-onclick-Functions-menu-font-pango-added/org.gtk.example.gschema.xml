@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="ui/" id="org.gtk.example">
+    <key name="font" type="s">
+      <default>'Monospace 12'</default>
+      <summary>Font</summary>
+      <description>The font to be used for textview.</description>
+    </key>
+  </schema>
+</schemalist>

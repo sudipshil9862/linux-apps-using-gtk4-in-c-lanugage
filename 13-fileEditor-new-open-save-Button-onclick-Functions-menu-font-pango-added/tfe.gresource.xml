@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/">
+	  <file>ui/13-fileEditor-new-open-save-Button-onclick-Functions-in-TfeTextView-Functions.ui</file>
+	  <file>ui/13-menu.ui</file>
+  </gresource>
+</gresources>
