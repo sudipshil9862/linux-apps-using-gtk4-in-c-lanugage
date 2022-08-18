@@ -1,0 +1,61 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+  <interface>
+   <object class="GtkApplicationWindow" id="win">
+      <property name="title">file editor</property>
+      <property name="default-width">850</property>
+      <property name="default-height">850</property>
+      <child>
+        <object class="GtkBox" id="boxv">
+		<property name="orientation">GTK_ORIENTATION_VERTICAL</property>
+		<property name="valign">center</property>
+		<property name="margin-start">100</property>
+		<property name="margin-end">100</property>
+             <child>
+               <object class="GtkLabel" id="dmy1">
+                 <property name="width-chars">10</property>
+               </object>
+             </child>
+	     <child>
+		     <object class="GtkDropDown" id="drop1">
+			     <property name="model">
+				     <object class="GtkStringList">
+					     <items>
+						     <item translatable="yes">Hindi Lohit Font</item>
+						     <item translatable="yes">Hindi Noto Font</item>
+					     </items>
+				     </object>
+			     </property>
+		     </object>
+	     </child>
+	     <child>
+               <object class="GtkLabel" id="label1">
+		       <property name="label">TEXT1</property>
+		       <attributes>
+			       <attribute name="weight" value="bold"/>
+			       <attribute name="scale" value="2"/>
+		       </attributes>
+               </object>
+             </child>
+             <child>
+               <object class="GtkButton" id="btn2">
+                 <property name="label">Hindi Lohit Font</property>
+               </object>
+             </child>
+             <child>
+               <object class="GtkLabel" id="label2">
+		       <property name="label">एक्सटेंशन का हिंदी अ</property>
+		       <attributes>
+			       <attribute name="weight" value="bold"/>
+			       <attribute name="scale" value="2"/>
+		       </attributes>
+               </object>
+	     </child>
+	     <child>
+               <object class="GtkButton" id="btnc">
+		       <property name="label">Close</property>
+	       </object>
+             </child>
+       </object>
+     </child>
+   </object>
+ </interface>
